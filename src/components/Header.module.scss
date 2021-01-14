@@ -1,0 +1,34 @@
+@import "../sass/main.scss";
+
+.header {
+  display: grid;
+  grid-template-columns: max(200px) 1fr;
+  &__container_logo {
+    background-color: $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 0 4rem 4rem;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    &_element {
+      padding: 0 1.5rem;
+      margin-right: 1rem;
+      color: $color-menu;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.logo {
+  width: 100%;
+  margin: 2.5rem;
+}
+.activeNav {
+  color: pink;
+}
