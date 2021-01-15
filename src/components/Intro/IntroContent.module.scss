@@ -1,0 +1,31 @@
+@import "../../sass/main.scss";
+
+.introContent {
+  padding-top: 20rem;
+  color: $color-title;
+  display: grid;
+  &_sobtitle {
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+  &_title {
+    font-family: $title-typography;
+    font-size: 10rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.4rem;
+  }
+  &_subtitle {
+    font-family: $title-typography;
+    font-size: 3.7rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1rem;
+  }
+  &_text {
+    margin-bottom: 6rem;
+  }
+}
+.container_button {
+  margin: 0 auto;
+}

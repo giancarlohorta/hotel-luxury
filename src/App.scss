@@ -1,5 +1,9 @@
 @import "./sass/main.scss";
 
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .container {
   max-width: 120rem;
   margin: 0 auto;
